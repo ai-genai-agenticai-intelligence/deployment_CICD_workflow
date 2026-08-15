@@ -12,7 +12,7 @@ from sklearn.metrics import confusion_matrix, precision_score, f1_score, recall_
 sns.set(style="white")
 
 # Load Data
-dataset = pd.read_csv(r"D:\ABHI-VSCODE\3.CICD_PIPELINE\iris.csv")
+dataset = pd.read_csv("")
 
 # Feature names (Ensure no extra spaces or parentheses)
 dataset.columns = [
